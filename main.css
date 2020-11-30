@@ -1,3 +1,6 @@
+body {
+	font-family: Helvetica !important;
+}
 .navbarcustom {
 	background-color: #ffc000;
 }
@@ -12,14 +15,33 @@
 	outline: none;
 }
 
-.buttoncustom {
-	background-color: white;
-	border: none;
-	border-radius: 40px;
-	height: 35px;
-	width: 80px;
+.separation-line {
+	border-right: 1px rgb(190, 190, 190) solid;
+	height: 20px;
 }
 
+.buttoncustom {
+	color: #ffc000;
+	background-color: white;
+	border: none;
+	border-radius: 45px;
+	height: 35px;
+	width: 80px;
+	transition: 0.2s;
+}
+
+.buttoncustom:hover {
+	background-color: rgb(243, 243, 243);
+	color: #f3b600;
+}
+
+a.customlink {
+	font-size: 1.2em;
+	transition: 0.2s;
+}
+a.customlink:hover {
+	color: white !important;
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 	/* STYLES GO HERE */
