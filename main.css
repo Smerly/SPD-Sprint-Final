@@ -1,0 +1,22 @@
+.navbarcustom {
+	background-color: #ffc000;
+}
+
+.search {
+	background-color: rgb(255, 255, 255);
+	border: none;
+	color: rgb(202, 202, 202);
+	padding: 1px 30px;
+	border-radius: 40px;
+	height: 35px;
+	min-width: 400px;
+	outline: none;
+}
+
+.buttoncustom {
+	background-color: white;
+	border: none;
+	border-radius: 40px;
+	height: 35px;
+	width: 80px;
+}
