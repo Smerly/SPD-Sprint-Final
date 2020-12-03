@@ -57,3 +57,9 @@ a.customlink:hover {
 	background: url(Herobg.png) no-repeat 50% 0;
 	background-size: cover;
 }
+
+.img-responsive1 {
+	display: block !important;
+	width: auto !important;
+	max-height: 1000px !important;
+}
