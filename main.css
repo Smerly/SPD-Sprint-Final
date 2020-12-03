@@ -1,4 +1,5 @@
 body {
+	background-color: #ffc000;
 	font-family: Helvetica !important;
 }
 .navbarcustom {
@@ -36,63 +37,23 @@ body {
 }
 
 a.customlink {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	transition: 0.2s;
+	padding: 2px;
 }
 a.customlink:hover {
-	color: white !important;
-}
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-	/* STYLES GO HERE */
+	color: black !important;
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-	/* STYLES GO HERE */
+.images-hero {
+	min-width: 500px;
+	max-width: 500px;
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-	/* STYLES GO HERE */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	/* STYLES GO HERE */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-	/* STYLES GO HERE */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-	/* STYLES GO HERE */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-	/* STYLES GO HERE */
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-	/* STYLES GO HERE */
-}
-
-/* iPhone 5 (portrait &amp; landscape)----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-	/* STYLES GO HERE */
-}
-
-/* iPhone 5 (landscape)----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
-	/* STYLES GO HERE */
-}
-
-/* iPhone 5 (portrait)----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
-	/* STYLES GO HERE */
+.herocustom {
+	background-color: white;
+	margin-left: -10px;
+	margin-right: -10px;
+	background: url(Herobg.png) no-repeat 50% 0;
+	background-size: cover;
 }
