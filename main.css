@@ -46,8 +46,7 @@ a.customlink:hover {
 }
 
 .images-hero {
-	min-width: 500px;
-	max-width: 500px;
+	width: 40%;
 }
 
 .herocustom {
@@ -56,10 +55,4 @@ a.customlink:hover {
 	margin-right: -10px;
 	background: url(Herobg.png) no-repeat 50% 0;
 	background-size: cover;
-}
-
-.img-responsive1 {
-	display: block !important;
-	width: auto !important;
-	max-height: 1000px !important;
 }
