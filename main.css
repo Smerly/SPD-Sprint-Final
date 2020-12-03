@@ -55,4 +55,5 @@ a.customlink:hover {
 	margin-right: -10px;
 	background: url(Herobg.png) no-repeat 50% 0;
 	background-size: cover;
+	object-fit: contain;
 }
