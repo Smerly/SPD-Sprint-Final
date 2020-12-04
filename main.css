@@ -1,3 +1,10 @@
+html,
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
 body {
 	background-color: #ffc000;
 	font-family: Helvetica !important;
@@ -10,7 +17,7 @@ body {
 }
 
 .underline {
-	border-bottom: 1px black solid;
+	border-top: 1px black solid;
 	margin-left: -120px;
 	margin-right: -120px;
 }
@@ -28,7 +35,7 @@ body {
 }
 
 .separation-line {
-	border-right: 1px rgb(190, 190, 190) solid;
+	border-right: 1px rgb(141, 141, 141) solid;
 	height: 20px;
 }
 
@@ -51,6 +58,7 @@ a.customlink {
 	font-size: 1.5em;
 	transition: 0.2s;
 	padding: 2px;
+	text-decoration: none;
 }
 
 a.customlink1 {
@@ -93,4 +101,14 @@ a.customlink:hover {
 	border-radius: 50px;
 	font-size: 1.4em;
 	font-weight: 700;
+}
+
+.custom-select {
+	width: 150px;
+	background-color: rgb(255, 255, 255);
+	border: none;
+	color: rgb(202, 202, 202);
+	padding: 1px 30px;
+	text-align: center;
+	border-radius: 40px;
 }
